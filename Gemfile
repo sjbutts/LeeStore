@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+gem 'figaro'
 gem 'devise'
 gem 'paperclip'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
